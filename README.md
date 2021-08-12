@@ -10,7 +10,7 @@ MGR (Music Genre Recognition) is a subfield of MIR. Automatic MGR is significant
 
 Our overall Deep Learning task is to try come up with a model that performs better on the GTZAN dataset than the majority of other entries.
 
-We are interested in implementing the framework proposed in the paper ["Music Genre Recognition using Deep Neural Networks and Transfer Learning”](https://www.semanticscholar.org/paper/Music-Genre-Recognition-Using-Deep-Neural-Networks-Ghosal-Kolekar/1efbe96510c16c2d1db9bdba9cfa18464043fb49) by DeepandWay Ghosal and Maheshkumar Kolekar and see if we can recreate the same high accuracy.
+We are interested in implementing the framework proposed in the blog ["Music Genre Recognition using Convolutional Neural Networks”](https://towardsdatascience.com/music-genre-recognition-using-convolutional-neural-networks-cnn-part-1-212c6b93da76) by Kunal Vaidya and see if we can recreate the same high accuracy.
 
 ## Data
 
@@ -18,14 +18,9 @@ We are using the [GTZAN dataset](https://www.kaggle.com/andradaolteanu/gtzan-dat
 
 ## Techniques
 
-For our analysis we are interested in implementing a combination of a CNN-LSTM (Convolutional Long Short Term Memory Neural Network) and transfer learning.
+For our analysis we are interested in translating the Convolutional Neural Network model from the blog from tensorflow to pytorch and see if we can replicate or even improve upon the accuracy.
 
-LTSM as it is useful for processing entire sequences of data and have an excellent track record with MGR analysis.
-
-Transfer Learning to extract meaningful features from the dataset.
+## Results
 
 ## Requirements 
 
-## How To Run
-
-## Results
