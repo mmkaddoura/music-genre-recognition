@@ -1,5 +1,7 @@
 # Music Genre Recognition using CNN and ResNet architectures
 
+![alt text](https://github.com/mmkaddoura/music-genre-recognition/blob/main/music.png)
+
 ## Introduction
 
 Building deep learning models trained on audio data has become an extremely important and lucrative venture over the last decade. Interactive virtual assistants, such as Siri and Alexa, as well as self-driving cars use deep learning models trained on audio data to predict the correct course of action. Companies such as Spotify and Pandora have also based their business around such models, especially on the task of MIR.
