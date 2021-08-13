@@ -35,7 +35,7 @@ For our analysis we were interested in translating the Convolutional Neural Netw
 
 We first performed some preprocessing of the dataset by only using the first 3 seconds of each audio file and converting them from a Waveform Audio File Format to a mel-spectrogram. We converted them as mel spectrograms will give us a visual representation of spectrum of frequencies over time. We used the librosa library to perform this conversion. Below are some examples of mel spectrograms for different genres of songs. Please take note that as the mel spectrograms have some observable differences, it gives us confidence that a deep learning model can correctly classify the songs.
 
-
+![alt text](https://github.com/mmkaddoura/music-genre-recognition/blob/main/mel_spectrograms.png)
 
 We the created a custom CNN model based off the blog's CNN design through tensorflow, as well as a ResNet18 model which we then fine tuned. Based on our analysis, we found the following techniques to be helpful in achieving a high validation accuracy:
 
